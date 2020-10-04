@@ -1,0 +1,2389 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tuitekuru</title>
+<style type="text/css">
+* {
+padding: 0;
+margin: 0;
+}
+
+
+.all {
+}
+.all>.no-sticky {
+	width: 100%;
+	height: 40000px;
+	position: relative;
+	background-color:#FEEABC;
+	top: 0px;
+	
+}
+.all>.no-sticky>.sticky {
+	width:calc(100%/10*1);
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+    left:0;
+	background-color:#FCAA00;
+}
+.all>.no-sticky>.no-sticky {
+	width:calc(100%/10*9);
+	height: 38000px;
+	position: relative;
+	top: 2000px;
+	background-color:#FEEABC;
+	left:calc(100%/10);
+}
+.all >.no-sticky >.no-sticky>.sticky {
+	width:calc(100%/9*1);
+	height: 100px;
+	background-color:#FCAA00;
+	position: absolute;
+}
+.all>.no-sticky>.no-sticky>.no-sticky {
+	width:calc(100%/9*8);
+	height: 36000px;
+	position: relative;
+	top: 2000px;
+	left:calc(100%/9);
+	background-color:#FEEABC;
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.sticky {
+	width: calc(100%/8*1);
+	height: 100px;
+	position: absolute;
+	background-color:#61C359;
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky {
+	background-color:#FEEABC;
+	width: calc(100%/8*7);
+	height: 34000px;
+	position: relative;
+	top: 2000px;
+	left: calc(100%/8);
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width:calc(100%/7*1);
+	height: 100px;
+	position: absolute;
+	background-color: #FCAA00;
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky {
+	background-color:#FEEABC;
+	width:calc(100%/7*6);
+	height: 32000px;
+	position: relative;
+	top: 2000px;
+	left: calc(100%/7);
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: calc(100%/6*1);
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky{
+	background-color:#FEEABC;
+	width: calc(100%/6*5);
+	height: 30000px;
+	position: relative;
+	top: 2000px;
+	left:calc(100%/6);	
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: calc(100%/5*1);
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky{
+	background-color:#FEEABC;
+	width: calc(100%/5*4);
+	height: 28000px;
+	position: relative;
+	top: 2000px;
+	left:calc(100%/5);
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: calc(100%/4*1);
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky{
+	background-color:#FEEABC;
+	width: calc(100%/4*3);
+	height: 26000px;
+	position: relative;
+	top: 2000px;
+	left: calc(100%/4);
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: calc(100%/3*1);
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky{
+	background-color:#FEEABC;
+	width: calc(100%/3*2);
+	height: 24000px;
+	position: relative;
+	top: 2000px;
+	left: calc(100%/3);
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: calc(100%/2*1);
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky{
+	background-color:#FEEABC;
+	width: calc(100%/2*1);
+	height: 22000px;
+	position: relative;
+	top: 2000px;
+	left: calc(100%/2);
+	}
+.all>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.no-sticky>.sticky{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color:#FCAA00;
+	}
+
+.sticky{
+	border-radius:15px;
+	text-align:center;
+	z-index: 2500;
+	}
+h1{
+	font-size:48px;
+	color:#767676;
+	padding-top:50px;
+	margin-left:20%;	
+	}
+h2{
+	font-size:28px;
+	color:#767676;
+	padding-top:28px;
+	}
+h3{
+	font-size:40px;
+	color:#767676;
+	}
+p{
+	font-size:18px;
+	color:#767676;
+	}
+span{
+	font-size:80px;
+	text-align:center;
+	vertical-align:center;
+	color:#767676;
+	background-color:#FCAA00;
+	border-radius:15px;
+	}
+
+.style1:nth-of-type(1){
+	position:absolute;
+	left:5%;top:700px;
+	}
+
+.style1:nth-of-type(2){
+	position:absolute;
+	left:5%;top:1400px;
+	}
+.style1:nth-of-type(3){
+	position:absolute;
+	left:5%;top:2100px;
+	}
+.style1:nth-of-type(4){
+	position:absolute;
+	left:5%;top:2800px;
+	}
+.style1:nth-of-type(5){
+	position:absolute;
+	left:5%;top:3500px;
+	}
+.style1:nth-of-type(6){
+	position:absolute;
+	left:5%;top:4200px;
+	}
+.style1:nth-of-type(7){
+	position:absolute;
+	left:5%;top:4900px;
+	}
+.style1:nth-of-type(8){
+	position:absolute;
+	left:5%;top:5600px;
+	}
+.style1:nth-of-type(9){
+	position:absolute;
+	left:5%;top:6300px;
+	}
+.style1:nth-of-type(10){
+	position:absolute;
+	left:5%;top:7000px;
+	}
+.style1:nth-of-type(11){
+	position:absolute;
+	left:5%;top:7700px;
+	}
+.style1:nth-of-type(12){
+	position:absolute;
+	left:5%;top:8400px;
+	}
+.style1:nth-of-type(13){
+	position:absolute;
+	left:5%;top:9100px;
+	}
+.style1:nth-of-type(14){
+	position:absolute;
+	left:5%;top:9800px;
+	}
+.style1:nth-of-type(15){
+	position:absolute;
+	left:5%;top:10500px;
+	}
+.style1:nth-of-type(16){
+	position:absolute;
+	left:5%;top:11200px;
+	}
+.style1:nth-of-type(17){
+	position:absolute;
+	left:5%;top:11900px;
+	}
+.style1:nth-of-type(18){
+	position:absolute;
+	left:5%;top:12600px;
+	}
+.style1:nth-of-type(19){
+	position:absolute;
+	left:5%;top:13300px;
+	}
+.style1:nth-of-type(20){
+	position:absolute;
+	left:5%;top:14000px;
+	}
+.style1:nth-of-type(21){
+	position:absolute;
+	left:5%;top:14700px;
+	}
+.style1:nth-of-type(22){
+	position:absolute;
+	left:5%;top:15400px;
+	}
+.style1:nth-of-type(23){
+	position:absolute;
+	left:5%;top:16100px;
+	}
+.style1:nth-of-type(24){
+	position:absolute;
+	left:5%;top:16800px;
+	}
+.style1:nth-of-type(25){
+	position:absolute;
+	left:5%;top:17500px;
+	}
+.style1:nth-of-type(26){
+	position:absolute;
+	left:5%;top:18200px;
+	}
+.style1:nth-of-type(27){
+	position:absolute;
+	left:5%;top:18900px;
+	}
+.style1:nth-of-type(28){
+	position:absolute;
+	left:5%;top:19600px;
+	}
+
+
+.style1:nth-of-type(29){
+	position:absolute;
+	left:5%;top:21500px;
+	}
+.style1:nth-of-type(30){
+	position:absolute;
+	left:5%;top:23500px;
+	}
+.style1:nth-of-type(31){
+	position:absolute;
+	left:5%;top:25500px;
+	}
+.style1:nth-of-type(32){
+	position:absolute;
+	left:5%;top:27500px;
+	}
+.style1:nth-of-type(33){
+	position:absolute;
+	left:5%;top:29500px;
+	}
+.style1:nth-of-type(34){
+	position:absolute;
+	left:5%;top:31500px;
+	}
+.style1:nth-of-type(35){
+	position:absolute;
+	left:5%;top:33500px;
+	}
+.style1:nth-of-type(36){
+	position:absolute;
+	left:5%;top:35500px;
+	}
+.style1:nth-of-type(37){
+	position:absolute;
+	left:5%;top:37500px;
+	}
+.style1:nth-of-type(38){
+	position:absolute;
+	left:5%;top:38000px;
+	}
+.style1:nth-of-type(39){
+	position:absolute;
+	left:5%;top:38500px;
+	}
+.style1:nth-of-type(40){
+	position:absolute;
+	left:5%;top:39000px;
+	}
+
+
+
+
+.style1{
+	border-top: 1px solid #61C359;
+	text-align: center;
+	z-index:2000;width:90%;
+}
+.style1:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #61C359;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+
+
+
+
+#hu{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:20000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#hu div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+#hu div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#hu:hover span:nth-child(5){
+	opacity:0.2;
+	transition:3s;
+	}
+#hu div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#hu:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#hu div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#hu div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+#hu div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+#kyou{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:22000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#kyou div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#kyou div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#kyou:hover span:nth-child(2){
+	opacity:0.1;
+	transition:3s;
+	}
+#kyou div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#kyou:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#kyou div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#kyou:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#kyou div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#kyou div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+
+
+
+
+#kyou div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+
+#kei{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:24000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#kei div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#kei div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#kei:hover span:nth-child(1){
+	opacity:0.1;
+	transition:3s;
+	}
+#kei div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#kei:hover span:nth-child(3){
+	opacity:0.1;
+	transition:3s;
+	}
+#kei div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#kei:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#kei div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#kei div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+
+#kei div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+	
+
+
+
+
+
+
+#gin{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:26000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#gin div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#gin div:nth-child(1)>span{border-radius:15px;}
+#gin div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(4){
+	opacity:0.1;
+	transition:3s;
+	}
+#gin div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#gin div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(6){
+	opacity:0.1;
+	transition:3s;
+	}
+#gin div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#gin div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(10){
+	opacity:0.1;
+	transition:3s;
+	}
+#gin div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#gin div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+#gin:hover span:nth-child(12){
+	opacity:0.1;
+	transition:3s;
+	}
+
+#gin div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+	
+
+
+
+
+#kin{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:28000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#kin div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#kin div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#kin div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#kin div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#kin div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(4){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(6){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(7){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(9){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#kin div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#kin:hover span:nth-child(11){
+	opacity:0.1;
+	transition:3s;
+	}
+#kin div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+
+#kin div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+
+
+
+#kaku{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:30000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#kaku div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#kaku div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#kaku:hover span:nth-child(3){
+	opacity:0.1;
+	transition:3s;
+	}
+#kaku div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#kaku:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#kaku div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#kaku:hover span:nth-child(7){
+	opacity:0.5;
+	transition:3s;
+	}
+#kaku div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#kaku div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#kaku:hover span:nth-child(11){
+	opacity:0.1;
+	transition:3s;
+	}
+#kaku div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+
+#kaku div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+	
+
+
+#hisya{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:32000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#hisya div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#hisya div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#hisya div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(2){
+	opacity:0.1;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#hisya div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#hisya div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#hisya div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(7){
+	opacity:0.1;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(9){
+	opacity:0.1;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#hisya div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#hisya:hover span:nth-child(11){
+	opacity:0.1;
+	transition:3s;
+	}
+#hisya div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+
+#hisya div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+	
+
+
+
+
+#ou{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:34000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#ou div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#ou div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#ou div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#ou div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#ou div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(4){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(5){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(6){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(7){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(8){
+	opacity:0.5;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(9){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(10){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(11){
+	opacity:0.1;
+	transition:3s;
+	}
+#ou div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+#ou:hover span:nth-child(12){
+	opacity:0.1;
+	transition:3s;
+	}
+
+#ou div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+
+
+
+
+#footer{
+	padding-top: 200px;
+	margin-top: -200px;
+	position: absolute;
+	top:36000px;
+	width:100%;
+	height:600px;
+	z-index:1000;
+	}
+#footer div:nth-child(1){
+	float:left;
+	margin-left:10%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+#footer div:nth-child(1)>span:nth-child(1){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:10%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(2){
+	display: block;
+	width:10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:20%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(3){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:200px;
+	left:30%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(4){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:10%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(5){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:20%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(6){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:350px;
+	left:30%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(7){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:10%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(8){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:20%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(9){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:500px;
+	left:30%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(10){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:10%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(11){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:20%;
+	z-index:1500;
+	}
+#footer div:nth-child(1)>span:nth-child(12){
+	display: block;
+	width: 10%;
+	height: 150px;
+	position: absolute;
+	top:650px;
+	left:30%;
+	z-index:1500;
+	}
+#footer div:nth-child(2){
+	float:left;
+	margin-left:20%;
+	width:30%;
+	height:600px;
+	border-radius:15px;
+	}
+
+
+
+
+
+a:link {
+	color: rgba(255,255,255,0.0);
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(255,255,255,0.0);
+}
+a:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,0.0);
+}
+a:active {
+	text-decoration: none;
+	color: rgba(255,255,255,0.0);
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/stickyfloat.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
+
+<script>
+	$(function(){
+		$("#a1").stickyfloat({
+			//速度
+			duration:500,
+			//falseにすると親要素からはみ出せる
+			lookBottom:true,
+			//常に上に余白をつける
+			offsetY: 50,
+			stickToBottom:false,
+			//移動を開始するまでの時間
+			delay:100,
+			//イージングlinear・swing
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a2").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a3").stickyfloat({
+		duration:800,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+
+<script>
+	$(function(){
+		$("#a4").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a5").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a6").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a7").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a8").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	<script>
+	$(function(){
+		$("#a9").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+<script>
+	$(function(){
+		$("#a10").stickyfloat({
+		duration:500,
+			lookBottom:false,
+			offsetY: 50,
+			stickToBottom:false,
+			delay:100,
+			easing:"linear"
+		});
+		});
+	</script>
+	
+	
+</head>
+
+<body>
+<div class="all" id="all">
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+<div class="style1">
+</div>
+
+
+
+
+
+
+
+<div id="hu">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>歩</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div>
+<h3>歩兵</h3>
+<p>通称は歩(ふ)<br>
+一歩ずつ歩いて進む兵。<br>
+進める場所は前に１マスだけなので弱くみられるけど<br>
+この兵だけは９人居り<br>
+皆で戦うととんでもない強さになる。<br>
+出世すると金将に成り<br>
+費用対効果が崩壊する。</p>
+<h3>使い方</h3>
+<p>盤上にある歩は2つに分けられる(気がする)<br>
+真ん中で分けて、玉側の歩は守りの歩<br>
+逆側の歩は攻めの歩。と思ってます。<br>
+持ち駒の歩は、相手の駒をずらしたり出来ます。<br>
+ダンスの歩や桂頭の歩など、歩で相手の駒を取れたり<br>
+金の下に歩を打つことで強固な守りになったりします。
+</p>
+
+
+
+</div>
+</div>
+
+
+
+<div id="kyou">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>香</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div>
+<h3>香車</h3>
+<p>通称は香(きょう)や、槍(やり)<br>
+重い槍のついた台車を押してる兵。<br>
+イメージはショッピングカートで突進する感じ。<br>
+真っ直ぐしか進めないし小回りが利かないけど<br>
+真っ直ぐならどこまでも進める。<br>
+終盤は意外な場面で登場する。<br>
+出世すると金将に成るが<br>
+あえて出世しないのも手<br>
+どちらがいいのかは、その時次第</p>
+<h3>使い方</h3>
+<p>盤上にある香は全てが端っこに居るので<br>
+最初は使い辛く、一度も動かないこともある。<br>
+しかし、端に戦力を集中し一気に攻める雀挿しや<br>
+終盤での詰みに絡みやすい。<br>
+さらに持ち駒になった際の威力は強力で<br>
+田楽刺しなど、大駒と交換できることも多々あります
+</p>
+</div>
+</div>
+
+
+
+
+
+<div id="kei">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>桂</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div>
+<h3>桂馬</h3>
+<p>通称は桂(けい)<br>
+跳馬に乗った兵。いわゆるハネウマライダー<br>
+斜め前の一つ前に進める。間にある駒をは<br>
+飛ばして移動できる。<br>
+そのトリッキーな動きは意外な手が生まれやすく<br>
+上級者ほど桂馬を上手く使うと言われている<br>
+昇進するとと、金に成れる。</p>
+<h3>使い方</h3>
+<p>初期位置の桂馬は守りの要だが<br>
+跳ねると攻めに転じられる。<br>
+跳ねた時に相手の駒も飛び越えられるので<br>
+いきなり王手をかけたり<br>
+相手の駒を狙うこともできる。<br>
+さらに二か所に跳ねられるので<br>
+相手の駒を両取りも期待できる。</p>
+</div>
+</div>
+
+
+
+
+
+<div id="gin">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>銀</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>銀将</h3>
+<p>通称は銀(ぎん)<br>
+金と共に大様を守る武将。<br>
+口癖はガンガン行こうぜ<br>
+前方３つと斜め後ろに１マス進める<br>
+強力な駒で、守りにも攻めにも使えるが<br>
+忍者のように動けるので、攻めに使うことが多い。<br>
+銀矢倉や銀冠などの名前に銀が入る<br>
+囲いもあるぐらい囲いに入ることが多い
+</p>
+<h3>使い方</h3>
+<p>飛車がいる方の銀は守りに使い<br>
+逆側の銀は攻めに使うのが一般的ですが<br>
+カニカニ銀のように二枚とも攻めに使う戦法もある<br>
+銀は千鳥に使えという格言もある通り<br>
+まっすぐ前に進むと元の位置に戻れなくなるので<br>
+斜めに使うのがよい</p>
+</div>
+</div>
+
+
+
+
+
+<div id="kin">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>金</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>金将</h3>
+<p>通称は(きん)<br>
+金と銀だけは金属なので金駒(かなごま)ともいう<br>
+王様の側近の武将で鬼のように強い<br>
+斜め後ろ以外の全てのマスに１つ進める駒<br>
+非常に強力な駒で、一瞬で相手を詰ます剣になったり<br>
+守りに使うと強力な盾に変身する</p>
+<h3>使い方</h3>
+<p>初期位置が王様の隣なので、王様を守る役目<br>
+動けないのが斜め後ろだけなので、一番下に居る時は<br>
+隙が無くなる。<br>
+強力すぎる駒ですが逃げ足が遅くと攻めていくと<br>
+相手の駒に取られてしまうことも多々ある。<br>
+強すぎる駒は相手の手に渡ると恐ろしい事になるので<br>
+金は守りに銀を攻めに使うのが一般的<br>
+ただし、終盤の金は切れ味の鋭い日本刀と化す</p>
+</div>
+</div>
+
+
+
+
+
+<div id="kaku">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>角</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>角行</h3>
+<p>通称は角(かく)<br>
+角の生えた牛が引く車でイメージ的には<br>
+fate-zeroでライダーが乗ってたやつ<br>
+とにかく移動速度が早く<br>
+自分の王様の隣にいながら相手の王様の首をとったりする<br>
+斜めならどこまでも行ける。(駒を跳び超えることはできない)<br>
+進化すると龍馬(りゅうま・りゅうめ)通称は馬(うま)という<br>
+もはや神話クラスの存在に成る<br>
+イメージ的には麒麟(ビールに描かれている奴)<br>
+強さは宝具レベルで今まで動けなかった縦と横にも１マス進めるようになる
+</p>
+<h3>使い方</h3>
+<p>超強力ですが接近に持ち込んでしまうと、銀の下位互換みたいに<br>
+なってしまうので、他の駒から離れたところに打つと良い<br>
+相性の良い駒が桂馬で、うまく使うと相手の守りを崩壊させる<br>
+弱点が頭なので、他の駒に頭を守ってもらうといいかも。<br>
+</p>
+</div>
+</div>
+
+
+
+
+<div id="hisya">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>飛</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>飛車</h3>
+<p>通称は飛(ひ)<br>
+最初から空飛ぶ車というありえない存在<br>
+強さは異常で、縦横にどこまでも進める<br>
+制御が難しく守りに使うより攻めに使いたい<br>
+進化すると龍(りゅう)になり斜めにも１マス進める<br>
+序盤」は龍を作ることを目的にしてもいいかも</p>
+<h3>使い方</h3>
+<p>超強力ですが接近に持ち込んでしまうと、金の下位互換みたいに<br>
+なってしまうので、他の駒から離れたところに打つと良い<br>
+相性の悪い駒が王様で、自分の王様から離れるほうがいい<br>
+もしくは王様を飛車から離して配置するといい<br>
+しかし、僕は王様の隣に配置する戦法を取っています
+</p>
+</div>
+</div>
+
+
+
+
+<div id="ou">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>王</span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>王将・玉将</h3>
+<p>通称は(おう・ぎょく)<br>
+どの武将よりも強く、接近戦に長けており<br>
+接近戦であれば龍や馬といった神話クラスの獣を同等に戦える<br>
+王様が詰まされると負けなので、あまり戦いには参加しないが<br>
+とんでもないスペックを持っている<br>
+守りの陣形には矢倉・美濃・銀冠・など様々なものがある
+</p>
+<h3>使い方</h3>
+<p>基本的には逃げやすく周りに金銀を配置する<br>
+初期位置で戦うことはあまりなく、戦いが起きる前には<br>
+十分な囲いを完成させるようにする<br>
+逆に相手の囲いが完成する前に攻めるといい<br>
+稀に、初期位置から動かさず殴りあうこともある<br>
+失恋したときに最も使われる手法で<br>
+自暴自棄になっている人は大体負ける<br>
+しかし、限度を超えた自暴自棄は強かった。</p>
+</div>
+</div>
+
+
+
+
+<div id="footer">
+<div>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div><h3>最後に</h3>
+<p>ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです</p>
+<h3>使い方</h3>
+<p>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです<br>
+ここに書いてある内容は全てイメージです
+</p>
+</div>
+</div>
+
+ <div class="no-sticky">
+  <a href="gogonokoutya.html"target="blank"><h1>午後の紅茶はこっち</h1></a>
+  <div class="sticky" id="a1"><a href="#all"><h2>HOME</h2></a></div>
+   <div class="no-sticky">
+    <div class="sticky" id="a2"><a href="#hu"><h2>歩兵</h2></a></div>
+     <div class="no-sticky">
+      <div class="sticky" id="a3"></div>
+       <div class="no-sticky">
+        <div class="sticky" id="a4"><a href="#kyou"><h2>香車</h2></a></div>
+         <div class="no-sticky">
+          <div class="sticky" id="a5"><a href="#kei"><h2>桂馬</h2></a></div>
+           <div class="no-sticky">
+            <div class="sticky" id="a6"><a href="#gin"><h2>銀将</h2></a></div>
+             <div class="no-sticky">
+              <div class="sticky" id="a7"><a href="#kin"><h2>金将</h2></a></div>
+               <div class="no-sticky">
+                <div class="sticky" id="a8"><a href="#kaku"><h2>角行</h2></a></div>
+                 <div class="no-sticky">
+                  <div class="sticky" id="a9"><a href="#hisya"><h2>飛車</h2></a></div>
+                   <div class="no-sticky">
+                    <div class="sticky" id="a10"><a href="#ou"><h2>王将</h2></a></div>
+                  	</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
